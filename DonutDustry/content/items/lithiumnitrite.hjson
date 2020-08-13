@@ -1,0 +1,7 @@
+type: resource
+name: Lithium Nitrite
+description: A highly explosive material, created from Lithium and Niter. Used as a explosive due to its ability to nitrostate its ketones under certain conditions.
+explosiveness: 1.5
+flammability: 0.4
+cost: 2.5
+color: 235e03

@@ -1,0 +1,5 @@
+type: material
+name: Carbon Fiber
+description: A special fabricated weave made from multiple different layers of carbon materials
+cost: 1.5
+color: 242424

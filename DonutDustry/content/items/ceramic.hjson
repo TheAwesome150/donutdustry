@@ -1,0 +1,5 @@
+type: material
+name: Ceramic
+description: A highly durable material, great at absorbing heat.
+cost: 1.5
+color: fa854b

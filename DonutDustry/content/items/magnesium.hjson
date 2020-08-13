@@ -1,0 +1,6 @@
+type: material
+name: Magnesium
+description: A rare hard metal. Favored for its magnetic properties
+hardness: 1
+cost: 1
+color: c4c4c4

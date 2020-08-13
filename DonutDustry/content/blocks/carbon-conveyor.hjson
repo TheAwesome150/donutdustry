@@ -1,0 +1,12 @@
+type: Conveyor
+name: Carbon Fiber conveyor
+description: Uses lightweight carbon fiber to transport materials faster than other conveyors.
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  carbonfiber/3
+]
+category: distribution
+speed: 0.15
+research: armored-conveyor

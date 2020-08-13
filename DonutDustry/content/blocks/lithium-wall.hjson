@@ -1,0 +1,12 @@
+name: Lithium Wall
+description: A wall made of Lithium. Slowly builds up a charge when shot, releasing it randomly. Less health than a surge wall, but stronger and more frequent electrical discharge.
+type: SurgeWall
+health: 900
+size: 1
+lightningChance: 0.10
+lightningDamage: 23
+requirements: [
+  lithium/18
+]
+category: defense
+research: surge-wall

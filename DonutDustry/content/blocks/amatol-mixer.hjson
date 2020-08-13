@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Amatol Mixer
+description: By finely crushing pyrolumnescent particles of magnesium, and mixing it with Lithium Nitrite, the ultimate explosive is created. Amatol
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 85
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.8
+  items: {
+    items: [
+      lithiumnitrite/1
+      magnesium/1
+    ]
+  }
+}
+requirements: [
+  lead/100
+  copper/140
+  titanium/50
+  magnesium/40
+  carbonfiber/20
+]
+category: crafting
+research: lithium-nitrate-mixer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: amatol/1

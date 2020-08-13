@@ -1,0 +1,7 @@
+type: resource
+name: Amatol
+description: An extremely explosive material, created by mixing Blast Compound and Lithium Nitrate.
+explosiveness: 2
+flammability: 0.5
+cost: 2.5
+color: 664d3f

@@ -1,0 +1,6 @@
+type: material
+name: Lithium
+description: A uncommon metal, used in the production of advanced electrics and heat conduction systems.
+hardness: 0
+cost: 1
+color: 768a6b

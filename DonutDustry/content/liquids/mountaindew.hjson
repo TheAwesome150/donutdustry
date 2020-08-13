@@ -1,0 +1,8 @@
+name: Petroleum
+description: A highly flammable material, made by refining oil.
+color: e3f0cc
+flammability: 1.5
+temperature: 0.5
+viscosity: 0.5
+explosiveness: 1.5
+effect: tarred

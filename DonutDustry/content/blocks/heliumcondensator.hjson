@@ -1,0 +1,37 @@
+type: GenericSmelter
+name: "Helium Condensator"
+description: "using its heat-insulating Lithium core and some water, it cools helium down to liquid state"
+liquidCapacity: 50
+outputLiquid: {
+  liquid: liquidhelium
+  amount: 25
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 15
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      lithium/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.8
+  }
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/30
+  lithium/20
+]
+category: crafting
+research: cryofluidmixer
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

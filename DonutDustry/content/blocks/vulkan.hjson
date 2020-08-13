@@ -1,0 +1,27 @@
+type: ItemTurret
+name: Vulkan
+description: A high speed rotary cannon. Requires a constant feed of bullets to function at full speed
+health: 950
+size: 2
+reload: 4
+range: 120
+ammoUseEffect: shellEjectSmall
+inaccuracy: 12
+rotatespeed: 12
+ammo:{
+  copper: standardCopper
+  graphite: standardDense
+  pyratite: standardIncendiary
+  silicon: standardHoming
+  lithium: standardThorium
+}
+requirements: [
+  copper/150
+  graphite/110
+  magnesium/50
+  carbonfiber/20
+
+
+]
+category: turret
+research: salvo

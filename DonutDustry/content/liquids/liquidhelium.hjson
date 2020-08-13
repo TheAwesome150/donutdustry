@@ -1,0 +1,6 @@
+name: Liquid Helium
+description: By cooling Helium gas to -269 C (or -452 F), we can create the ultimate coolant. Used to cool the hottest of machines and weapons, such as a i9-10900K
+color: f5ffff
+temperature: 0
+heatCapacity: 1.2
+viscosity: 0.4

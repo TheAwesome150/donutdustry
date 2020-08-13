@@ -1,0 +1,29 @@
+type: ItemTurret
+name: Valkyrie
+description: A advanced missile battery, armed with homing Surface to Air missiles.
+health: 1250
+size: 3
+reload: 15
+range: 200
+targetAir: true
+targetGround: false
+ammoUseEffect: shootSmallSmoke
+inaccuracy: 5
+rotatespeed: 12
+ammo:{
+  magnesium: missileExplosive
+  amatol: missileIncendiary
+  surge-alloy: missileSurge
+}
+requirements: [
+  copper/150
+  graphite/110
+  magnesium/50
+  carbonfiber/30
+  lithium/90
+  ceramic/30
+
+
+]
+category: turret
+research: swarmer

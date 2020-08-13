@@ -1,0 +1,19 @@
+name: Large Lithium Battery
+description: A larger Lithium-Ion battery, stores alot more charge than a normal Silicon battery.
+type: Battery
+health: 500
+emptyLightColor: ff8d85
+fullLightColor: 9aff63
+hasPower: true
+consumes: {
+  powerBuffered: 100000
+}
+size: 2
+requirements: [
+  lead/40
+  silicon/20
+  titanium/20
+  lithium/26
+]
+category: power
+research: lithiumbattery

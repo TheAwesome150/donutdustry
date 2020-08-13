@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Ceramic Kiln
+description: Synthesizes Ceramic by baking multiple materials at a high temperature
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 80
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      silicon/1
+      sand/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.6
+  }
+}
+requirements: [
+  lead/50
+  copper/80
+  titanium/20
+]
+category: crafting
+research: kiln
+idleSound: respawning
+flameColor: f75a3e
+idleSoundVolume: 0.5
+outputItem: ceramic/1

@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Carbon Weaver
+description: Weaves graphite into carbon fiber
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      graphite/3
+    ]
+  }
+}
+requirements: [
+  lead/50
+  copper/80
+  titanium/20
+]
+category: crafting
+research: multi-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: carbonfiber/1

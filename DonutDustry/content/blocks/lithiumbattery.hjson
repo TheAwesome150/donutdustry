@@ -1,0 +1,18 @@
+name: Lithium Battery
+description: A Lithium-Ion battery, stores alot more charge than a normal Lead battery.
+type: Battery
+health: 200
+emptyLightColor: ff8d85
+fullLightColor: 9aff63
+hasPower: true
+consumes: {
+  powerBuffered: 10000
+}
+size: 1
+requirements: [
+  copper/26
+  lead/20
+  lithium/14
+]
+category: power
+research: battery

@@ -1,0 +1,45 @@
+type: ArtilleryTurret
+name: Kondensator
+description: A super-heavy mortar that fires huge Amatol filled shells across long distances
+health: 4200
+size: 4
+reload: 300
+range: 400
+ammoUseEffect: shellEjectBig
+inaccuracy: 5
+targetAir: false
+recoil: 4
+restitution: 1
+rotatespeed: 1
+shake: 1
+ammoPerShot: 5
+ammo: {
+  amatol : {
+    speed: 3
+    lifetime: 800
+    damage: 500
+    knockback: 50
+    type: ArtilleryBulletType
+    ArtilleryBulletType: artilleryExplosive 
+    bulletWidth: 25
+    bulletHeight: 30
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+    hitEffect: explosion
+    hitShake: 1
+    splashDamageRadius: 64
+    splashDamage: 300
+  }
+}
+requirements: [
+  copper/250
+  lead/200
+  graphite/180
+  titanium/150
+  lithium/50
+  magnesium/120
+  carbonfiber/150
+]
+category: turret
+research: ripple
